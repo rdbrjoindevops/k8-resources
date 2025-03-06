@@ -4,4 +4,4 @@ metadata:
   name: nginxconfigmap
 data:
   course: "kubernetes"
-  duration: "25hrs"
+  duration: "26hrs"
