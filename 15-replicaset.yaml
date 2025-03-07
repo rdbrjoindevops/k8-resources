@@ -12,7 +12,8 @@ spec:
   selector:
     # replicaset usethese labels to find the pods for creating desired number of replicas
     matchLabels:
-      tier: frontend
+       app: frontend
+       tier: web
   # pod templete is sub set for replicaset    
   template:
     metadata:
