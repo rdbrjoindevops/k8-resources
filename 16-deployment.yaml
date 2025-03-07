@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: rdbrdevops/deployment:2.0
+        image: rdbrdevops/deployment:1.0
         ports:
         - containerPort: 80
 ---
